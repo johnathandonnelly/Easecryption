@@ -1,0 +1,170 @@
+:root {
+    --primary-color: #ef4c52;
+    --text-color: #FDFFFC;
+    --background-color: #101010;
+}
+
+
+
+
+/* Global */
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Figtree;
+    height: 100%;
+    margin: 0;
+}
+
+button {
+    background-color: var(--text-color);
+    border: none;
+    color: var(--background-color);
+    font-family: inherit;
+    font-weight: bold;
+    padding: 15px 30px;
+    transition: background-color 0.3s ease;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: var(--primary-color);
+}
+
+
+
+
+/* Classes */
+
+.title {
+    color: var(--primary-color);
+    pointer-events: none;
+}
+
+.center-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.active-page {
+    background-color: var(--primary-color);
+    color: var(--background-color)
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+
+
+
+/* Navigation Bar */
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+#website-title {
+    color: var(--primary-color);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    margin-right: 20px
+}
+
+ul li:last-child {
+    margin-right: 0;
+}
+
+ul li a {
+    color: inherit;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 8px 12px;
+    transition: background-color 0.3 ease, color 0.3 ease;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: var(--primary-color);
+    transition: color 0.3s ease;
+    background-color: rgba(242, 50, 56, 0.3);
+}
+
+
+
+
+/* Footer */
+
+footer {
+    font-size: 0.9rem;
+    padding: 1rem;
+}
+
+
+
+
+/* Home */
+
+#home {
+    height: 85vh;
+}
+
+#home h1 {
+    margin-bottom: 10px;
+}
+
+#home p {
+    margin-top: 0px;
+}
+
+#home button {
+    margin-top: 30px;
+}
+
+
+
+
+/* Algorithms */
+
+.accordion {
+    margin-bottom: 10px;
+}
+
+.accordion.active {
+    background-color: var(--primary-color);
+}
+
+.panel {
+    background-color: rgba(242, 50, 56, 0.3);
+    display: none;
+}
+
+input {
+    font-family: inherit;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+}

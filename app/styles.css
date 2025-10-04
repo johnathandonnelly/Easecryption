@@ -60,6 +60,11 @@ button:hover {
     min-height: 100vh;
 }
 
+.credit {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
 
 
 

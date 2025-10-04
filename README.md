@@ -1,5 +1,7 @@
 # Easecryption
 
+A simple website to quickly encrypt, decrypt, and crack various ciphers.
+
 🕹 [Check it out here](https://johnathandonnelly.github.io/Easecryption/)
 
 ## 🚀 Getting Started
@@ -32,4 +34,14 @@ Or simply use the [live demo](https://johnathandonnelly.github.io/Easecryption/)
 
 ## 📜 License
 
-MIT License © Johnathan Donnelly 2025
+### Apache License 2.0 (for version 0.0.2+)
+
+© 2025 Johnathan Donnelly
+
+Licensed under the Apache License, Version 2.0.
+
+### MIT License (for version 0.0.1)
+
+© 2025 Johnathan Donnelly
+
+Licensed under the MIT License.
